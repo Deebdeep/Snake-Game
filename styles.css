@@ -1,0 +1,79 @@
+
+body
+{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url('https://damisanthrope.files.wordpress.com/2017/04/snake-pass-key-art-no-logo.jpg');
+}
+*
+{
+    margin: 0;
+    padding: 0%;
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align:left;
+  }
+  
+  .flex-item-left {
+    
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
+
+.rules
+{
+    font-family: 'Abril Fatface', cursive;
+    color: #ff7300;
+    text-decoration:dotted;
+}
